@@ -23,13 +23,16 @@ body, a:link, a:visited, a:active{
 .dancer{
   width: 20px;
   height:20px;
-  background-color:red;
   border-radius:50%;
   position:absolute;
 }
+.blinky{
+  background-color:yellow;
+  width:100px;
+  height:100px;
+}
 
-.oribital{
-  background-color: white;
-  border-radius:50%;
-  position:absolute;
+.orbital{
+  background-color: blue;
+
 }
