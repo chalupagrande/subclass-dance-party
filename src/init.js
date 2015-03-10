@@ -3,17 +3,8 @@ $(document).ready(function(){
   //--
 
   $('body').on('click', '.dancer', function(){
-
+    
   });
-
-
-
-
-
-
-
-
-
 
   //~~~~~ Top Bar Handlers
 
