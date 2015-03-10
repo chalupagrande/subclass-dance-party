@@ -5,7 +5,22 @@ $(document).ready(function(){
   $('body').on('click', '.dancer', function(){
     
   });
-
+  $('body').on('click', '.sun', function(){
+    $(this).css({
+      'background-color' : 'white'
+    }).animate({
+      'width': "200px",
+      'height': '200px'
+    },400,
+      function(){
+        $(this).animate({
+          'width': "5px",
+          'height': '5px'
+        },100);
+        $(this).css('background-color', 'black');
+      }
+    );
+  });
   //~~~~~ Top Bar Handlers
 
   $(".addDancerButton").on("click", function(event){
