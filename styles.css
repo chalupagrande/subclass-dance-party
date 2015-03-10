@@ -21,7 +21,15 @@ body, a:link, a:visited, a:active{
   background-color: #777;
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  width: 20px;
+  height:20px;
+  background-color:red;
+  border-radius:50%;
+  position:absolute;
+}
+
+.oribital{
+  background-color: white;
+  border-radius:50%;
   position:absolute;
 }
